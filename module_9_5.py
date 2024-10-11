@@ -17,8 +17,7 @@ class Iterator:
         # присвоение остальных значений атрибутам класса
         self.start = start
         self.stop = stop
-        # self.pointer = start
-
+       
     # метод проверки значения step на равенство 0 и формирование исключения
     def _step(self, stp):
         if stp == 0:
